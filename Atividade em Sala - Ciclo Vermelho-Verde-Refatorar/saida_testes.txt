@@ -1,0 +1,16 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-9.1.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/claude/Atividade em Sala - Ciclo Vermelho-Verde-Refatorar
+plugins: anyio-4.15.1
+collecting ... collected 7 items
+
+test_tarifa.py::test_aluno_paga_dois_reais_por_hora_iniciada PASSED      [ 14%]
+test_tarifa.py::test_aluno_tem_teto_diario_de_dez_reais PASSED           [ 28%]
+test_tarifa.py::test_funcionario_nao_paga_por_estadia_curta PASSED       [ 42%]
+test_tarifa.py::test_funcionario_nao_paga_por_estadia_longa PASSED       [ 57%]
+test_tarifa.py::test_visitante_tem_tolerancia_de_quinze_minutos PASSED   [ 71%]
+test_tarifa.py::test_visitante_paga_cinco_reais_por_hora_iniciada_apos_tolerancia PASSED [ 85%]
+test_tarifa.py::test_perfil_desconhecido_levanta_erro PASSED             [100%]
+
+============================== 7 passed in 0.02s ===============================
